@@ -1,0 +1,12 @@
+{
+    "name": "patap/command",
+    "authors": [
+        {
+            "name": "Mikhail Slobodchikov",
+            "email": "slobodchikov1985@yandex.ru"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.2"
+    }
+}
