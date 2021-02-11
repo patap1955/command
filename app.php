@@ -6,4 +6,6 @@ $app = new \Symfony\Component\Console\Application('git command');
 
 $app->add(new \App\StringOutput());
 
+$app->add(new \App\ReusableStringOutput());
+
 $app->run();
