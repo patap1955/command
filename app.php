@@ -5,7 +5,7 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'a
 $app = new \Symfony\Component\Console\Application('git command');
 
 $app->add(new \App\StringOutput());
-
 $app->add(new \App\ReusableStringOutput());
+$app->add(new \App\InteractiveSurvey());
 
 $app->run();
